@@ -1,0 +1,16 @@
+
+.container{
+    width: '%100';
+    height: fit-content;
+    padding: 0.5%;
+    flex-direction: row;  
+    display: flex;
+    
+}
+
+.input {
+    margin-left: 2px;
+  }
+
+
+

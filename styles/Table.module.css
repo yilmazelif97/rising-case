@@ -1,0 +1,95 @@
+.table-container {
+  width: 100%;
+  margin: 20px 0;
+  background-color: white;
+  top: 966px;
+  left: 274px;
+  gap: 0px;
+  border-radius: 16px 16px 16px 16px;
+  opacity: 0px;
+  padding: 2%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: none;
+}
+
+.table th {
+  background-color: transparent;
+  text-align: center;
+
+}
+
+.table td {
+  background-color: transparent;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown button {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+
+
+.dropdown button::after {
+  display: inline-block;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dropdown button:hover,
+.dropdown button.active {
+  color: #007bff;
+}
+
+.dropdown.open button::after {
+  transform: rotate(-135deg);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 60px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

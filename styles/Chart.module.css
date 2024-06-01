@@ -1,0 +1,19 @@
+.title {
+    width: Hug (185px)px;
+    height: Hug (28px)px;
+    padding: 4px 8px 4px 8px;
+    gap: 4px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.titleContent {
+    font-family: HK Grotesk;
+    line-height: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+padding: 4px 8px 4px 8px;
+
+}
